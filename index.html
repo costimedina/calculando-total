@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando el total</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!--Características de la tarjeta-->
+
+    <main class="principal">
+        <div class="calculate__input">
+
+            <!--imagen del productos-->
+
+            <img class="calculate__img" src="assets/img/control-blanco.png" alt="#">
+
+            <!--iTítulo del producto-->
+
+            <h2 class="calculate__title--primmary">Control Gamer X-Box</h2>
+
+            <!--Código que definirá parametro en JS-->
+
+            <input id="amount" class="info__bar" type="number" placeholder="Ingresa una cantidad">
+            <input id="color" class="info__bar" type="text" placeholder="Ingresa un color">
+            <h2 class="calculate__title--secondary" id="price" value="80000"> Precio: $80.000</h2>
+
+            <!--Input con evento onclick-->
+
+            <input onclick="calcular()" class="button__primary" type="button" value="¡Calcular!">
+        </div>
+
+        <!--Información lateral a la card con los totales-->
+
+        <div class="calculate__result">
+            <p class="calculate__result--primary">Total: <span id="total">0</span></p>
+            <p class="calculate__result--primary">Cantidad: <span id="totalAmount">0</span></p>
+            <p class="calculate__result--primary">Color: <span id="totalColor" class="circle"></span></p>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

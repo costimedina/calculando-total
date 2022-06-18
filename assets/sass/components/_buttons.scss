@@ -1,0 +1,19 @@
+.button__primary{
+    text-align: center;
+    border-color:$primary-bg;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.5rem 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: $primary-button-color;
+}
+
+.button__primary:hover{
+    color: white;
+    background-color: #734652;
+    text-decoration: none;
+  }

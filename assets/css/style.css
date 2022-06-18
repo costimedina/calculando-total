@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.button__primary {
+  text-align: center;
+  border-color: #BF567D;
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  background-color: #DF7DA6;
+}
+
+.button__primary:hover {
+  color: white;
+  background-color: #734652;
+  text-decoration: none;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  width: 25%;
+  cursor: url("/assets/img/axolote.png"), auto;
+}
+
+.calculate__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #BF567D;
+  border-radius: 5%;
+}
+.calculate__input .calculate__img {
+  width: 60%;
+  padding-top: 1.5rem;
+}
+.calculate__input .calculate__title--primmary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+.calculate__input .calculate__title--secondary {
+  padding: 1rem 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.info__bar {
+  margin: 2% 5%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  height: 1.5rem;
+}
+
+.calculate__result {
+  line-height: 1rem;
+  margin-left: 1rem;
+}
+
+.calculate__result--primary {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+.circle {
+  background-color: white;
+  padding: 0.1rem 0.8rem;
+  border-radius: 100%;
+  margin-left: 1rem;
+  border: 1px solid grey;
+}
+
+/*# sourceMappingURL=style.css.map */

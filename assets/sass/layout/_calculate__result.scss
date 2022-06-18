@@ -1,0 +1,18 @@
+.calculate__result{   
+    line-height: 1rem;
+    margin-left: 1rem; 
+}
+
+.calculate__result--primary{
+    font-size: $principal-title;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.circle{
+    background-color: white;
+    padding: 0.1rem 0.8rem;
+    border-radius: 100%;
+    margin-left: 1rem;
+    border: 1px solid grey;
+}
